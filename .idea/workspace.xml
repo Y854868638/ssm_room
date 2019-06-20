@@ -7,963 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd9c742d-04b1-4a43-b272-51c5df0c4f7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/bean/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/bean/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/bean/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/bean/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/OrdierController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/RoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/dao/IAdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/dao/IOrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/dao/IRoomDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/dao/IUsersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/interaceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/IAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/IRoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/impl/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/impl/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/impl/RoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/impl/UsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/utils/Md5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/utils/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoomMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/vit-gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/404page/404page.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/404page/Comming.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/About/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/About/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/About/about-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/About/about-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/About/about-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/About/about-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/About/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/Shape-101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/Shape-1101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Blog/blog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/2co.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/checkou-1t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/checkou-3t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/checkout.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/ex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/mas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/pay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Checkout/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-16-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-29-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-3-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-30-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-4-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Gallery/Gallery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/Guest-Book-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Guestbook/iconbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Discover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Master-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Our-Events-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Our-Events-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Our-Events-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Slider-v1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Testimonials.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/Visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-icon-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-icon-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-icon-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-icon-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-icon-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/about-testimonials-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/bg-gallery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/date-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/even-l-icon-color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/even-l-icon-color1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/even-l-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/even-r-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/footer-top-icon-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-16-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-2-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-3-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-4-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-5-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-6-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-7-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-8-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/gallery-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/icon-our.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/icon-slider-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/icon-slider-r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/our-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/our-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/our-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/our-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/our-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/our-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/sky-logo-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-1/sky-logo-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/Slider-v2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/Testimonials-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/Testimonials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/gallery-1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/gallery-2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/gallery-3-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/gallery-4-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/rooms-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/rooms-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/rooms-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/v2-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/v2-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/v2-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-2/v2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/Ellipse-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/Layer-506.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/Layer-507.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/Layer-508.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/Layer-509.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/Slider-v3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/events-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/events.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/news.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/our-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/our-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/our-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/our-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/our-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-3/our-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/about-video.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/events-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/events-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/events.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/room-2-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/room-2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/room-2-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/room-2-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/room-2-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/room-2-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/slider-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/slider.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/v2-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/v2-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/v2-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Home-4/v2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Login/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/Another-.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/Another-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/Another-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/Another-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/close_black_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/fullscreen_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/img-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/img-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/img-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/img-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/left_black-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/left_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/left_black_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/right_black-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/right_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Product/right_black_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/2co.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/COUPLE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/STANDARD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/american.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/family.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/luxury.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/mastercard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/paypal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Reservation/visa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants-60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Restaurants.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/Shape-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Restaurants/even.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/2155d1a4-ff66-4781-8a7e-499036bfa56c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/3830acb6-fe41-4b5c-a156-4837f87706b2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/4a81db53-0299-4521-a4bb-49b90c6aca07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/67305052-2b6d-48c3-aabf-7c396092ed81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/6c62d181-e2e6-4cf7-b2e4-505bcf484e13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/70fae70b-579d-4951-876d-f1df8200e9aa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/7a909602-f6a4-412b-b7ed-157f5035888e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/81b2832f-1bf2-4672-859e-78df5f32e91e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/81d2c174-ed7d-4d94-8761-be12ee360ac9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/8f0df4ba-8a6f-4b14-80d1-763b11813481.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/bd3b0d10-22d3-4f45-9469-d23a324b16ee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/cf8ca9e4-c1a0-4e5b-a1d6-93658dec3d47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/f3a923cc-180f-4f0f-b92f-2fa89c1a667e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/fa9cde2e-f44a-49b2-9178-0998998bd8d7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/Room/room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/attractions/Attractions-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/resource/lightbox_loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/resource/lightbox_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/resource/opacity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/resource/transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.appear.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.countTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.littlelightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/sky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vit-gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/404_page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/Modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/check_out.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/comming_soon.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/contact.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/guestbook.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/header_admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/index_4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/login_admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/register_admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/release.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/room_4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/room_6.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/room_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/tems_condition_1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_room" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_room.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/ssm_room.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/bean/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/bean/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/bean/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/bean/Users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/controller/OrdierController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/controller/RoomController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/controller/UsersController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/dao/IAdminDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/dao/IOrderDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/dao/IRoomDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/dao/IUsersDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/interaceptor/LoginInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/service/IAdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/service/IOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/service/IRoomService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/service/IUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/service/impl/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/service/impl/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/service/impl/RoomService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/service/impl/UsersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/utils/Md5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/it/sanxia/utils/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RoomMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/META-INF/ssm_room.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/bean/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/bean/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/bean/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/bean/Users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/OrdierController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/RoomController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/UsersController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/dao/IAdminDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/dao/IOrderDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/dao/IRoomDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/dao/IUsersDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/interaceptor/LoginInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/IAdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/IOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/IRoomService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/IUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/impl/AdminService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/impl/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/impl/RoomService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/impl/UsersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/utils/Md5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/utils/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/mapper/RoomMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/mapper/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/javaee-api-7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/javax.mail-1.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/mybatis-3.2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-oxm-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/css/bootstrap-select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/css/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/css/vit-gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/404page/404page.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/404page/Comming.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/About/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/About/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/About/about-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/About/about-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/About/about-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/About/about-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/About/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/Shape-101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/Shape-1101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/2co.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/checkou-1t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/checkou-3t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/checkout.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/ex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/mas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/pay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Checkout/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-16-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-29-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-3-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-30-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-4-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/iconbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Discover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Master-card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Our-Events-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Our-Events-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Our-Events-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Slider-v1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Testimonials.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-testimonials-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/bg-gallery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/date-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/even-l-icon-color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/even-l-icon-color1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/even-l-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/even-r-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/footer-top-icon-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-16-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-2-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-3-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-4-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-5-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-6-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-7-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-8-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/icon-our.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/icon-slider-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/icon-slider-r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/sky-logo-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-1/sky-logo-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/Slider-v2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/Testimonials-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/Testimonials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-3-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-4-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/rooms-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/rooms-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/rooms-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/v2-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/v2-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/v2-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-2/v2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Ellipse-21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Layer-506.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Layer-507.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Layer-508.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Layer-509.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Slider-v3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/events-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/events.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/news.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/about-video.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/events-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/events-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/events.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/footer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/slider-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/slider.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/v2-icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/v2-icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/v2-icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Home-4/v2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Login/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/Another-.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/Another-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/Another-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/Another-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/close_black_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/fullscreen_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/img-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/img-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/img-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/img-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/left_black-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/left_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/left_black_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/right_black-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/right_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Product/right_black_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/2co.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/COUPLE.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/STANDARD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/american.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/family.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/luxury.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/mastercard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/paypal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Reservation/visa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Shape-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/even.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/2155d1a4-ff66-4781-8a7e-499036bfa56c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/3830acb6-fe41-4b5c-a156-4837f87706b2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/4a81db53-0299-4521-a4bb-49b90c6aca07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/67305052-2b6d-48c3-aabf-7c396092ed81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/6c62d181-e2e6-4cf7-b2e4-505bcf484e13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/70fae70b-579d-4951-876d-f1df8200e9aa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/7a909602-f6a4-412b-b7ed-157f5035888e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/81b2832f-1bf2-4672-859e-78df5f32e91e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/81d2c174-ed7d-4d94-8761-be12ee360ac9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/8f0df4ba-8a6f-4b14-80d1-763b11813481.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/bd3b0d10-22d3-4f45-9469-d23a324b16ee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/cf8ca9e4-c1a0-4e5b-a1d6-93658dec3d47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/f3a923cc-180f-4f0f-b92f-2fa89c1a667e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/fa9cde2e-f44a-49b2-9178-0998998bd8d7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/Room/room.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/attractions/Attractions-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/resource/lightbox_loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/resource/lightbox_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/resource/opacity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/images/resource/transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/bootstrap-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/jquery.appear.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/jquery.countTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/jquery.littlelightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/sky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/js/vit-gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/404_page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/Modify.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/check_out.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/comming_soon.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/contact.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/guestbook.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/header_admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/index_4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/login_admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/register_admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/release.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/room_4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/room_6.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/room_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/pages/tems_condition_1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ssm_room/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_room" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1016,28 +61,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="360">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssm_room/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssm_room/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -1113,7 +144,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ssm_room" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -1210,7 +241,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1218,56 +248,11 @@
               <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="sanxia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1439,18 +424,25 @@
       <workItem from="1560902721903" duration="9563000" />
       <workItem from="1560928239300" duration="10019000" />
       <workItem from="1560944338424" duration="8447000" />
-      <workItem from="1560989149574" duration="252000" />
+      <workItem from="1560989149574" duration="1259000" />
     </task>
+    <task id="LOCAL-00001" summary="国际旅游度假村项目SSM">
+      <created>1560989708609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560989708610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124030000" />
+    <option name="totallyTimeSpent" value="125037000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.20844504" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989733" visible="true" weight="0.20844504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1466,14 +458,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.203966" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.2857143" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.04249292" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.26203966" />
       <window_info anchor="bottom" id="Dependency Viewer" order="16" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1531,6 +523,72 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/ssm/ssm_room" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="dir:E:/ssm/ssm_room" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="国际旅游度假村项目SSM" />
+    <option name="LAST_COMMIT_MESSAGE" value="国际旅游度假村项目SSM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2023,16 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssm_room/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2040,6 +1088,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
