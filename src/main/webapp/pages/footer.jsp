@@ -3,7 +3,20 @@
 <html>
 <head>
     <title>Title</title>
-
+    <link href="${pageContext.request.contextPath}/https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- CSS LIBRARY -->
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/vit-gallery.css">
+    <link rel="shortcut icon" type="text/css" href="${pageContext.request.contextPath}/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/bootstrap-datepicker.css" />
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css">
 </head>
 <body>
 <footer class="footer-sky">
@@ -12,7 +25,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
                     <div class="icon-email">
-                        <a href="#" title="Email"><img src="../images/Home-1/footer-top-icon-l.png" alt="Email" class="img-responsive"></a>
+                       <%-- <a href="#" title="Email"><img src="${pageContext.request.contextPath}/images/Home-1/footer-top-icon-l.png" alt="Email" class="img-responsive"></a>--%>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5">
@@ -47,14 +60,14 @@
             <div class="row padding-footer-mid">
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                     <div class="footer-logo text-center list-content">
-                        <a href="#" title="Skyline"><img src="../images/Home-1/sky-logo-footer.png" alt="Image"></a>
+                        <a href="index.html" title="Skyline"><img src="${pageContext.request.contextPath}/images/Home-1/sky-logo-footer.png" alt="Image"></a>
                     </div>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1  ">
                     <div class="list-content">
                         <ul>
-                            <li><a href="attractions.jsp" title="">网站地图</a></li>
-                            <li><a href="tems_condition_1.jsp" title="">条款 & 条件</a></li>
+                            <li><a href="attractions.html" title="">网站地图</a></li>
+                            <li><a href="tems_condition_1.html" title="">条款 & 条件</a></li>
                             <li><a href="#" title="">隐私策略</a></li>
                             <li><a href="#" title="">帮助</a></li>
                             <li><a href="#" title="">加盟</a></li>
@@ -66,8 +79,8 @@
                         <ul>
                             <li><a href="#" title="">我们的位置</a></li>
                             <li><a href="#" title="">事业</a></li>
-                            <li><a href="about.jsp" title="">关于我们</a></li>
-                            <li><a href="contact.jsp" title="">联系我们</a></li>
+                            <li><a href="about.html" title="">关于我们</a></li>
+                            <li><a href="contact.html" title="">联系我们</a></li>
                         </ul>
                     </div>
                 </div>
@@ -76,8 +89,8 @@
                         <ul>
                             <li><a href="#" title="">常见问题</a></li>
                             <li><a href="#" title="">新闻</a></li>
-                            <li><a href="gallery_1.jsp" title="">照片 & 视频</a></li>
-                            <li><a href="restaurant_1.jsp" title="">餐厅</a></li>
+                            <li><a href="gallery_1.html" title="">照片 & 视频</a></li>
+                            <li><a href="restaurant_1.html" title="">餐厅</a></li>
                             <li><a href="#" title="">贺卡</a></li>
                         </ul>
                     </div>
@@ -91,16 +104,16 @@
                     <div class="payments text-right">
                         <ul>
                             <li>
-                                <a href="#" title="Paypal"><img src="../images/Home-1/Paypal.png" alt="Paypal"></a>
+                                <a href="#" title="Paypal"><img src="${pageContext.request.contextPath}/images/Home-1/Paypal.png" alt="Paypal"></a>
                             </li>
                             <li>
-                                <a href="#" title="Visa"><img src="../images/Home-1/Visa.png" alt="Visa"></a>
+                                <a href="#" title="Visa"><img src="${pageContext.request.contextPath}/images/Home-1/Visa.png" alt="Visa"></a>
                             </li>
                             <li>
-                                <a href="#" title="Master"><img src="../images/Home-1/Master-card.png" alt="Master"></a>
+                                <a href="#" title="Master"><img src="${pageContext.request.contextPath}/images/Home-1/Master-card.png" alt="Master"></a>
                             </li>
                             <li>
-                                <a href="#" title="Discover"><img src="../images/Home-1/Discover.png" alt="Discover"></a>
+                                <a href="#" title="Discover"><img src="${pageContext.request.contextPath}/images/Home-1/Discover.png" alt="Discover"></a>
                             </li>
                         </ul>
                     </div>
@@ -110,4 +123,17 @@
     </div>
 </footer>
 </body>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/vit-gallery.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.countTo.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.appear.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/bootstrap-select.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.littlelightbox.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/bootstrap-datepicker.js"></script>
+<script src="http://ditu.google.cn/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4"></script>
+<!-- Custom jQuery -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/sky.js"></script>
 </html>

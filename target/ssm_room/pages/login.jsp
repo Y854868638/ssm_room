@@ -40,7 +40,7 @@
             <h2 class="sky-h3">登录您个人的账户</h2>
             <h5 class="p-v1" >Please log into your account and enjoy the show<br><a id="msg" class="p-v1">${msg}</a></h5>
             <form name="form1" onsubmit="return beforeSubmit(this)" action="${pageContext.request.contextPath}/user/login.do" method="post">
-                <div class="form-group" method="post">
+                <div class="form-group" method="get">
                     <input type="text" class="form-control" name="u_name" value="" placeholder="用户名">
                 </div>
                 <div class="form-group">

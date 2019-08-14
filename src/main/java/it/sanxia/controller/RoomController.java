@@ -62,8 +62,10 @@ public class RoomController {
     @RequestMapping("edit")
     public ModelAndView edit(Room room, MultipartFile file){
         ModelAndView mv=new ModelAndView();
+        System.out.println(file.getOriginalFilename()+"-11");
+
         try {
-           if (file!=null&&file.equals("")){
+           if (!file.getOriginalFilename().equals("")){
                //获取文件的完整路径
                String originalFilename= file.getOriginalFilename();
                String fileName=UUID.randomUUID().toString();//创建一个随机的名字
@@ -102,7 +104,7 @@ public class RoomController {
     public ModelAndView add(Room room,MultipartFile file){
         ModelAndView mv=new ModelAndView();
         try {
-           if (file != null){
+           if (!file.getOriginalFilename().equals("")){
                //获取文件的完整路径
                String originalFilename= file.getOriginalFilename();
                System.out.println("文件完整路径："+originalFilename);

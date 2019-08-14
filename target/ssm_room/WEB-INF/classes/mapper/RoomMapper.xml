@@ -9,7 +9,6 @@
     <select id="editUI" parameterType="int" resultType="room">
         select * from tb_room where r_id = #{r_id};
     </select>
-    <!--修改房屋信息-->
     <update id="edit" parameterType="room" >
         update tb_room
         <set>

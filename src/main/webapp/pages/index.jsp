@@ -380,7 +380,7 @@
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="wrap-best">
                     <div class="icon-best">
-                        <img src="${pageContext.request.contextPath}/images/Home-1/about-icon-5.png" class="img-responsive" alt="Image">
+                        <img height="55" width="67" src="${pageContext.request.contextPath}/images/Home-1/about-icon-5.png" class="img-responsive" alt="Image">
                     </div>
                     <h6 class="sky-h6">精美包装</h6>
                 </div>
