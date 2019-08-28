@@ -1,5 +1,6 @@
 package it.sanxia.service.impl;
 
+import it.sanxia.bean.LiuYan;
 import it.sanxia.bean.Users;
 import it.sanxia.dao.IUsersDao;
 import it.sanxia.service.IUserService;
@@ -24,5 +25,10 @@ public class UsersService implements IUserService {
     @Override
     public Users findByName(String u_name) {
         return iUsersDao.findByName(u_name);
+    }
+
+    @Override
+    public void insertMSG(LiuYan liuYan) {
+        iUsersDao.insertMSG(liuYan);
     }
 }

@@ -13,4 +13,8 @@
     <select id="findByName" parameterType="string" resultType="users">
         select * from tb_users where u_name=#{u_name}
     </select>
+    <insert id="insertMSG" parameterType="liuyan">
+        insert into tb_liuyan(user_id,ly_liuyan,ly_date,ly_name,ly_email,ly_zhuti)
+        values (#{user_id},#{ly_liuYan},#{ly_date},#{ly_name},#{ly_email},#{ly_zhuti})
+    </insert>
 </mapper>

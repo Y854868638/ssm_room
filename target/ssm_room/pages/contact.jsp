@@ -39,19 +39,19 @@
                 </div>
                 <div class="col-md-6 col-lg-6 col-lg-offset-1">
                     <div class="contact-form">
-                        <form action="send_mail_contact.php" method="post">
+                        <form action="${pageContext.request.contextPath}/user/insertMSG.do" method="post">
                             <div class="row">
                                 <div class="col-sm-6">
-                                    <input type="text" class="field-text" name="name" placeholder="Name">
+                                    <input type="text" class="field-text" name="ly_name" placeholder="联系人称呼">
                                 </div>
                                 <div class="col-sm-6">
-                                    <input type="text" class="field-text" name="email" placeholder="Email">
+                                    <input type="text" class="field-text" name="ly_email" placeholder="您的邮箱">
                                 </div>
                                 <div class="col-sm-12">
-                                    <input type="text" class="field-text" name="subject" placeholder="Subject">
+                                    <input type="text" class="field-text" name="ly_zhuti" placeholder="主题">
                                 </div>
                                 <div class="col-sm-12">
-                                    <textarea cols="30" rows="10" name="message" class="field-textarea" placeholder="Write what do you want"></textarea>
+                                    <textarea cols="30" rows="10" name="ly_liuYan" class="field-textarea" placeholder="请写下您的留言或者建议"></textarea>
                                 </div>
                                 <div class="col-sm-6">
                                     <button type="submit" class="btn btn-room">发送</button>

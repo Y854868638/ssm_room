@@ -342,7 +342,7 @@
 </section>
 <!-- END/ ABOUT-US-->
 <!-- 展示区域 -->
-<section class="best">
+<%--<section class="best">
     <div class="container">
         <div class="row">
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
@@ -411,7 +411,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>--%>
 <!-- END / BEST -->
 <!-- 留言 -->
 <section class="testimonials">

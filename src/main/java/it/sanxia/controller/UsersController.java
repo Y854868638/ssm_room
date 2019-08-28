@@ -1,5 +1,6 @@
 package it.sanxia.controller;
 
+import it.sanxia.bean.LiuYan;
 import it.sanxia.bean.Users;
 import it.sanxia.service.impl.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.Date;
 
 @Controller
 @RequestMapping("/user")
@@ -80,5 +83,32 @@ public class UsersController {
             e.printStackTrace();
         }
     }
+    //用户留言
+    @RequestMapping("liuYan")
+    public String liuYan(){
+        //跳转到留言界面
+
+        return "contact";
+    }
+
+    //存入留言
+    @RequestMapping("insertMSG")
+    public ModelAndView insertMSG(LiuYan liuYan){
+        ModelAndView modelAndView = new ModelAndView();
+        HttpSession session=request.getSession();
+        Users user = (Users) session.getAttribute("user");
+        //插入数据到LiuYan里面
+        liuYan.setLy_date(new Date());
+        liuYan.setUser_id(user.getU_id());
+        System.out.println(liuYan);
+        //传到service层
+         usersService.insertMSG(liuYan);
+        //跳到用户留言界面
+        modelAndView.setViewName("guestbook");
+        return modelAndView;
+
+
+    }
+
 
 }

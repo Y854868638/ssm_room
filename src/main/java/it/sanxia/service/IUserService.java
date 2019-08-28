@@ -1,5 +1,6 @@
 package it.sanxia.service;
 
+import it.sanxia.bean.LiuYan;
 import it.sanxia.bean.Users;
 
 public interface IUserService {
@@ -8,4 +9,6 @@ public interface IUserService {
     void Register(Users user);
 
     Users findByName(String u_name);
+
+    void insertMSG(LiuYan liuYan);
 }

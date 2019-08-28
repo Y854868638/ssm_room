@@ -52,6 +52,7 @@
             <!--是另外一种拦截，它可以在你后来测试中对某个界面进行不拦截。这样就不用在LoginInterceptor
             方法里获取不拦截的请求uri地址
             -->
+
             <mvc:exclude-mapping path="/user/login.do"/>
             <mvc:exclude-mapping path="/user/register.do"/>
             <mvc:exclude-mapping path="/user/findByName.do"/>

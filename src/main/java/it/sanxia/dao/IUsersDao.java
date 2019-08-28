@@ -1,5 +1,6 @@
 package it.sanxia.dao;
 
+import it.sanxia.bean.LiuYan;
 import it.sanxia.bean.Users;
 
 public interface IUsersDao {
@@ -8,4 +9,6 @@ public interface IUsersDao {
     void Register(Users user);
 
     Users findByName(String u_name);
+
+    void insertMSG(LiuYan liuYan);
 }

@@ -87,7 +87,7 @@
                         </li>
                         <li><a href="#" title="">风景展览</a></li>
                         <li><a href="${pageContext.request.contextPath}/pages/about.jsp" title="About">关于我们</a></li>
-                        <li><a href="${pageContext.request.contextPath}/pages/contact.jsp" title="Contact">联系</a></li>
+                        <li><a href="${pageContext.request.contextPath}/user/liuYan.do" title="Contact">联系</a></li>
                     </ul>
                 </div>
             </div>

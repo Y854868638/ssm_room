@@ -129,14 +129,7 @@
                         <div class="radio ">
                             <label class="padding-right">
                                 <input type="radio" value="信用卡" name="o_pay"> 信用卡</label>
-                            <div class="card">
-                                <img src="../images/Checkout/ex.png" alt="#" class="img-responsive">
-                                <img src="../images/Checkout/mas.png" alt="#" class="img-responsive">
-                                <img src="../images/Checkout/o.png" alt="#" class="img-responsive">
-                                <img src="../images/Checkout/pay.png" alt="#" class="img-responsive">
-                                <img src="../images/Checkout/visa.png" alt="#" class="img-responsive">
-                                <img src="../images/Checkout/2co.png" alt="#" class="img-responsive">
-                            </div>
+
                         </div>
                     </div>
                     <div >
