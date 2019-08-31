@@ -66,7 +66,7 @@
                 <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1  ">
                     <div class="list-content">
                         <ul>
-                            <li><a href="attractions.html" title="">网站地图</a></li>
+                            <li><a href="https://map.baidu.com/" title="">地图</a></li>
                             <li><a href="tems_condition_1.html" title="">条款 & 条件</a></li>
                             <li><a href="#" title="">隐私策略</a></li>
                             <li><a href="#" title="">帮助</a></li>

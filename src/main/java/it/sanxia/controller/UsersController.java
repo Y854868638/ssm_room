@@ -2,6 +2,7 @@ package it.sanxia.controller;
 
 import it.sanxia.bean.LiuYan;
 import it.sanxia.bean.Users;
+import it.sanxia.service.impl.LiuYanService;
 import it.sanxia.service.impl.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,13 +14,19 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 @RequestMapping("/user")
 public class UsersController {
-    @Autowired//d
+    @Autowired
     UsersService usersService;
+    @Autowired
+    LiuYanService liuYanService;
     @Autowired
     HttpServletRequest request;
     @RequestMapping("login")
@@ -103,6 +110,9 @@ public class UsersController {
         System.out.println(liuYan);
         //传到service层
          usersService.insertMSG(liuYan);
+        //查询该用户所有的留言
+        List<LiuYan> liuYanList= liuYanService.findAll(user.getU_id());
+        modelAndView.addObject("liuYanList",liuYanList);
         //跳到用户留言界面
         modelAndView.setViewName("guestbook");
         return modelAndView;

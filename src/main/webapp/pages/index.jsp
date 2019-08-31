@@ -312,7 +312,7 @@
 </section>
 <!-- END / ROOMS -->
 <!-- 关于我们-->
-<section class="about">
+<%--<section class="about">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5">
@@ -339,7 +339,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>--%>
 <!-- END/ ABOUT-US-->
 <!-- 展示区域 -->
 <%--<section class="best">
@@ -444,7 +444,7 @@
 </section>
 <!-- END / TESTIMONOALS -->
 <!--我们的活动-->
-<section class="events">
+<%--<section class="events">
     <div class="container">
         <h2 class="events-title">我们的活动</h2>
         <div class="line"></div>
@@ -484,7 +484,8 @@
             </div>
         </div>
     </div>
-</section>
+</section>--%>
+
 <!-- END / OUR EVENTS -->
 <!--新闻-->
 <section class="news">
@@ -540,7 +541,22 @@
 <!-- 我们的风光-->
 <!-- END / OUR GALLERY -->
 <!-- 尾部 静态包含-->
+<div style="background-color: #1e1818" id="baidumap" class="section-map">
+    <iframe src="https://map.baidu.com/" height="470" allowfullscreen></iframe>
+</div>
 <%@ include file="/pages/footer.jsp" %>
-</body>
+</body
+<%--在载入的时候隐藏百度地图的div防止页面加载的时候首先跳到地图--%>>
+<script language="JavaScript">
 
+   $(document).ready(function () {
+       $("#baidumap").hide();
+   });
+
+   $(document).scroll(function () {
+
+       $("#baidumap").show();
+   })
+
+</script>
 </html>
