@@ -73,7 +73,7 @@
                         <li class="dropdown ">
                             <a href="${pageContext.request.contextPath}#" title="  Page" class="dropdown-toggle" data-toggle="dropdown">浏览<b class="caret"></b></a>
                             <ul class="dropdown-menu icon-fa-caret-up submenu-hover">
-                                <li><a href="${pageContext.request.contextPath}/pages/guestbook.jsp" title="">留言簿</a></li>
+                                <li><a href="${pageContext.request.contextPath}/liuyan/findByid.do" title="">留言簿</a></li>
                                 <li class="submenu-hover1">
                                     <a href="${pageContext.request.contextPath}/pages/tems_condition_1.jsp" class="dropdown-toggle" data-toggle="dropdown">活动 <b class="caret"></b></a>
                                     <ul class="dropdown-menu dropdown-margin">
