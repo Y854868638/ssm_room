@@ -6,23 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab8c5000-5908-40ac-b6b1-878a6fbf8b43" name="Default Changelist" comment="增加了留言功能">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/LiuYanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/dao/ILiuYanDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/service/impl/LiuYanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LiuYanMapper.xml" afterDir="false" />
+    <list default="true" id="ab8c5000-5908-40ac-b6b1-878a6fbf8b43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/guestbook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/guestbook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/it/sanxia/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/sanxia/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_room/pages/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/guestbook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_room/pages/guestbook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm_room/pages/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/LiuYanController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="201">
               <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,10 +73,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114" />
+            <state relative-caret-position="378">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -125,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="216">
               <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -217,85 +204,6 @@
             <path>
               <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="sanxia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="sanxia" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="sanxia" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-              <item name="sanxia" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -537,7 +445,7 @@
       <workItem from="1566607743462" duration="6626000" />
       <workItem from="1566990816211" duration="676000" />
       <workItem from="1567043256362" duration="102000" />
-      <workItem from="1567228322896" duration="12728000" />
+      <workItem from="1567228322896" duration="13358000" />
     </task>
     <task id="LOCAL-00001" summary="增加了留言功能">
       <created>1566991033889</created>
@@ -546,11 +454,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566991033889</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="百度地图">
+      <created>1567241273331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567241273331</updated>
+    </task>
+    <task id="LOCAL-00003" summary="百度地图">
+      <created>1567241426345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567241426345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27090000" />
+    <option name="totallyTimeSpent" value="27720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +485,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.2580429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -575,7 +496,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.26770538" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.26770538" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -588,7 +509,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.25070822" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.23229462" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.23229462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -648,7 +569,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加了留言功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了留言功能" />
+    <MESSAGE value="百度地图" />
+    <option name="LAST_COMMIT_MESSAGE" value="百度地图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -988,11 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -1007,9 +924,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/LiuYanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="216">
           <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1017,13 +944,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/LiuYanController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
         </state>
       </provider>
     </entry>
