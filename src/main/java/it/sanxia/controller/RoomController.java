@@ -60,19 +60,19 @@ public class RoomController {
     }
     //修改房屋信息
     @RequestMapping("edit")
-    public ModelAndView edit(Room room, MultipartFile file){
+    public ModelAndView edit(Room room, MultipartFile pic){
         ModelAndView mv=new ModelAndView();
-        System.out.println(file.getOriginalFilename()+"-11");
+        System.out.println(pic.getOriginalFilename()+"-11");
 
         try {
-           if (!file.getOriginalFilename().equals("")){
+           if (!pic.getOriginalFilename().equals("")){
                //获取文件的完整路径
-               String originalFilename= file.getOriginalFilename();
+               String originalFilename= pic.getOriginalFilename();
                String fileName=UUID.randomUUID().toString();//创建一个随机的名字
                String ext=originalFilename.substring(originalFilename.lastIndexOf("."));//获取文件拓展名
-               file.transferTo(new File("E:/ssm/ssm_room/src/main/webapp/images/Room/"+fileName+ext));
+               pic.transferTo(new File("C:/pic/"+fileName+ext));
                //放入room对象
-               room.setR_pic("../images/Room/"+fileName+ext);
+               room.setR_pic(fileName+ext);
            }
             roomService.edit(room);
             mv.setViewName("redirect:/room/findAll.do");
@@ -101,18 +101,19 @@ public class RoomController {
     }
     //添加
     @RequestMapping("add")
-    public ModelAndView add(Room room,MultipartFile file){
+    public ModelAndView add(Room room,MultipartFile pic){
         ModelAndView mv=new ModelAndView();
         try {
-           if (!file.getOriginalFilename().equals("")){
+           if (!pic.getOriginalFilename().equals("")){
                //获取文件的完整路径
-               String originalFilename= file.getOriginalFilename();
+               String originalFilename= pic.getOriginalFilename();
                System.out.println("文件完整路径："+originalFilename);
                String fileName=UUID.randomUUID().toString();//创建一个随机的名字
                String ext=originalFilename.substring(originalFilename.lastIndexOf("."));//获取文件拓展名
-               file.transferTo(new File("E:/ssm/ssm_room/src/main/webapp/images/Room/"+fileName+ext));
+               pic.transferTo(new File("C:/pic/"+fileName+ext));
                //放入room对象
-               room.setR_pic("../images/Room/"+fileName+ext);
+               room.setR_pic(fileName+ext);
+               System.out.println("房屋信息："+room);
            }
             roomService.add(room);
             mv.setViewName("redirect:/room/findAll.do");

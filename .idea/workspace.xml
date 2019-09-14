@@ -2,12 +2,490 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ssm_room:war exploded" />
+      <artifact name="ssm_room" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab8c5000-5908-40ac-b6b1-878a6fbf8b43" name="Default Changelist" comment="">
+    <list default="true" id="ab8c5000-5908-40ac-b6b1-878a6fbf8b43" name="Default Changelist" comment=" 1">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_room.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_room_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/sanxia/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/Modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/Modify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/release.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/release.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/room_4.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/room_4.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/room_6.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/room_6.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/sanxia/controller/RoomController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/sanxia/controller/RoomController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/META-INF/ssm_room.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/bean/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/bean/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/bean/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/bean/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/OrdierController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/RoomController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/controller/UsersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/dao/IAdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/dao/IOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/dao/IRoomDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/dao/IUsersDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/interaceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/IAdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/IOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/IRoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/impl/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/impl/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/impl/RoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/service/impl/UsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/utils/Md5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/it/sanxia/utils/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/mapper/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/mapper/RoomMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/mapper/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/commons-fileupload-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/javaee-api-7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/javax.mail-1.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/mybatis-3.2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/slf4j-api-1.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-oxm-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/css/bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/css/bootstrap-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/css/gallery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/css/vit-gallery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/404page/404page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/404page/Comming.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/About/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/About/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/About/about-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/About/about-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/About/about-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/About/about-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/About/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/Shape-101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/Shape-1101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Blog/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/2co.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/checkou-1t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/checkou-3t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/checkout.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/ex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/mas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/pay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Checkout/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-16-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-29-29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-3-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-30-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-4-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Gallery/Gallery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/Guest-Book-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Guestbook/iconbook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Master-card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Our-Events-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Our-Events-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Our-Events-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Slider-v1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Testimonials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/Visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-icon-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/about-testimonials-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/bg-gallery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/date-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/even-l-icon-color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/even-l-icon-color1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/even-l-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/even-r-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/footer-top-icon-l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-16-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-2-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-3-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-4-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-5-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-6-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-7-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-8-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/gallery-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/icon-our.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/icon-slider-l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/icon-slider-r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/our-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/sky-logo-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-1/sky-logo-header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/Slider-v2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/Testimonials-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/Testimonials.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-3-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-4-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/gallery-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/rooms-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/rooms-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/rooms-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/v2-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/v2-icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/v2-icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-2/v2-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Ellipse-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Layer-506.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Layer-507.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Layer-508.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Layer-509.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/Slider-v3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/events-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/events.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/news.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-3/our-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/about-video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/events-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/events-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/events.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/room-2-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/slider-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/slider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/v2-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/v2-icon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/v2-icon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Home-4/v2-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Login/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/Another-.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/Another-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/Another-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/Another-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/close_black_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/fullscreen_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/img-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/img-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/img-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/img-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/left_black-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/left_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/left_black_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/right_black-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/right_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Product/right_black_2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/2co.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/COUPLE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/STANDARD.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/american.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/family.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/luxury.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/mastercard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/paypal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Reservation/visa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants-60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Restaurants.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/Shape-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Restaurants/even.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/17f777bc-8f2c-4b13-8a87-6da7b5744630.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/3bb3ff40-1491-4a0f-aae5-402b89980e1b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/42827735-d1d1-4da2-8be0-7ea946ef874e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/434463a7-7612-498f-ba8f-4c530a3f8b10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/6c62a289-63c5-463a-b4de-e727228e1d12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/ca8a775c-a9f6-433d-bb88-c7df51f64f5f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/ea39c15e-bdeb-4dc9-a314-498c44a809b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/f75a4e15-9456-4d0a-a5dd-b77847ba7640.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/Room/room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/attractions/Attractions-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/resource/lightbox_loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/resource/lightbox_sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/resource/opacity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/images/resource/transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/bootstrap-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/jquery-1.12.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/jquery.appear.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/jquery.countTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/jquery.littlelightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/sky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/js/vit-gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/404_page.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/Modify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/about.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/check_out.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/comming_soon.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/contact.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/guestbook.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/header_admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/index_4.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/login_admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/register_admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/release.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/room_4.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/room_6.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/room_detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/pages/tems_condition_1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm_room/test.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,76 +504,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/AdminController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/RoomController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+            <state relative-caret-position="314">
+              <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/OrdierController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="52" column="34" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/guestbook.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/Modify.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="78" column="78" lean-forward="true" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/LiuYanController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="62" column="53" lean-forward="true" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/interaceptor/LoginInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="-9">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -103,20 +533,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/room_4.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+            <state relative-caret-position="1017">
+              <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/room_6.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/release.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="319">
+              <caret line="90" column="69" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -165,10 +601,15 @@
         <option value="$PROJECT_DIR$/src/main/java/it/sanxia/service/impl/LiuYanService.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/sanxia/bean/LiuYan.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/guestbook.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/it/sanxia/controller/LiuYanController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/room_4.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/room_6.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/release.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/Modify.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/it/sanxia/controller/RoomController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
       </list>
     </option>
   </component>
@@ -198,6 +639,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,12 +647,56 @@
               <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="sanxia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_room" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_room" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+              <item name="sanxia" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,11 +704,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/pic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
@@ -237,46 +723,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.50">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.sanxia.Test" />
-      <module name="ssm_room" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.sanxia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="it.sanxia.bean.test" />
-      <module name="ssm_room" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="it.sanxia.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 8.0.50" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ssm_room:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/ssm_room" />
           </settings>
         </artifact>
+        <file path="$PROJECT_DIR$/../pic">
+          <settings>
+            <option name="CONTEXT_PATH" value="/upload" />
+          </settings>
+        </file>
+        <file path="C:/pic">
+          <settings>
+            <option name="CONTEXT_PATH" value="/upload" />
+          </settings>
+        </file>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_501_ssm_room" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_501_ssm_room_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -335,6 +803,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="ssm_room:war exploded" />
+          <artifact name="ssm_room:war" />
         </option>
       </method>
     </configuration>
@@ -411,17 +880,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Tomcat Server.Tomcat 8.0.50" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -445,7 +903,11 @@
       <workItem from="1566607743462" duration="6626000" />
       <workItem from="1566990816211" duration="676000" />
       <workItem from="1567043256362" duration="102000" />
-      <workItem from="1567228322896" duration="13358000" />
+      <workItem from="1567228322896" duration="13857000" />
+      <workItem from="1567242601101" duration="21000" />
+      <workItem from="1568250116994" duration="14436000" />
+      <workItem from="1568426233561" duration="7502000" />
+      <workItem from="1568440491933" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="增加了留言功能">
       <created>1566991033889</created>
@@ -468,11 +930,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567241426345</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" 1">
+      <created>1567241729515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567241729515</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27720000" />
+    <option name="totallyTimeSpent" value="51531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,8 +954,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.2580429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.24396783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -496,20 +966,21 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.26770538" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.39235127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.26770538" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.25070822" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.23229462" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.23229462" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="16" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -523,6 +994,45 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.26742628" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5042194" side_tool="true" weight="0.2580429" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.34560907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.26770538" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.25070822" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.23229462" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="16" visible="true" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="CDI" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -570,45 +1080,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加了留言功能" />
     <MESSAGE value="百度地图" />
-    <option name="LAST_COMMIT_MESSAGE" value="百度地图" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/pages/room_4.jsp</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value=" 1" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2885">
-          <caret line="658" column="19" selection-start-line="658" selection-start-column="19" selection-end-line="658" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/dao/IRoomDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/utils/Md5Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/favicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2136">
@@ -627,13 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-380">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -734,13 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/room_6.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/dao/IOrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -769,9 +1230,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LiuYanMapper">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LiuYanMapper" />
     <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/dao/IAdminDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -847,13 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/RoomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/bean/LiuYan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-551">
@@ -865,13 +1317,6 @@
             <element signature="e#1395#1396#0" expanded="true" />
             <element signature="e#1433#1434#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -892,52 +1337,38 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/guestbook.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="78" column="78" lean-forward="true" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/interaceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="62" column="53" lean-forward="true" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/room_4.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/LiuYanController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="95">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/interaceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
+        <state relative-caret-position="1862">
+          <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -946,8 +1377,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        <state relative-caret-position="150">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="78" column="78" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header_admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="68" column="89" selection-start-line="68" selection-start-column="89" selection-end-line="68" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/bean/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/release.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="90" column="69" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/sanxia/controller/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/room_4.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/Modify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/room_6.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -957,10 +1462,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>ssm_room</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1002,6 +1509,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>ssm_room</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

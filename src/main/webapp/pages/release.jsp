@@ -38,7 +38,19 @@
                 form1.r_bed.focus();
                 return false;
             }
-
+            if(form1.r_area.value==""){
+                alert("面积不能为空。");
+                form1.r_area.focus();
+                return false;
+            }else if(form1.r_area.value%1!=0){
+                alert("面积必须是整数。");
+                form1.r_area.focus();
+                return false;
+            }
+            if (form1.pic.value==""){
+                alert("请上传图片");
+                return false;
+            }
             return true;
         }
     </script>
@@ -73,7 +85,10 @@
                     <input type="text" class="form-control" name="r_bed" value="${room.r_bed}" placeholder="床位 *">
                 </div>
                 <div class="form-group">
-                    <input type="file" class="form-control" name="file" value="${room.r_pic}" placeholder="房间图片 *">
+                    <input type="text" class="form-control" name="r_area" value="${room.r_area}" placeholder="面积 *">
+                </div>
+                <div class="form-group">
+                    <input type="file" class="form-control" name="pic" value="${room.r_pic}" placeholder="房间图片 *">
                 </div>
                 <button type="submit" class="btn btn-default">登记房屋</button>
             </form>

@@ -32,7 +32,7 @@
                         <div class="wrap-item clearfix">
                             <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5">
                                 <div>
-                                    <img  src="${room.r_pic}" alt="#" height="523px" width="400px">
+                                    <img  src='/upload/${room.r_pic}' alt="网络不稳定，请稍后再试" height="523px" width="400px">
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7">
@@ -53,7 +53,7 @@
                         <div class="wrap-item clearfix">
                             <div class="col-xs-6 col-sm-5 col-md-5 col-lg-5 col-lg-push-7 col-md-push-7 col-sm-push-7 col-xs-push-6">
                                 <div >
-                                    <img  src="${room.r_pic}" alt="#" height="523px" width="440px">
+                                    <img  src='/upload/${room.r_pic}' alt="网络不稳定，请稍后再试" height="523px" width="440px">
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-7 col-md-7 col-lg-7 col-lg-pull-5 col-md-pull-5 col-sm-pull-5 col-xs-pull-6">

@@ -32,7 +32,7 @@
             <c:forEach items="${listRoom}" var="room">
             <div class="wrap-item ">
                 <div class="img">
-                    <img width="1170px" height="400px" src="${room.r_pic}" alt="#">
+                    <img width="1170px" height="400px" src='/upload/${room.r_pic}' alt="网络不稳定，请稍后再试">
                 </div>
                 <div class="text">
                     <h2 class="h2-rooms">${room.r_name}</h2>
@@ -41,7 +41,7 @@
                     <ul>
                         <li>最多：${room.r_max}人</li>
                         <li>面积：${room.r_area}平方米</li>
-                        <li>位置: ${room.r_view}</li>
+                        <li>特色: ${room.r_view}</li>
                         <li>床型：${room.r_bed}</li>
                     </ul>
                     <a href="${pageContext.request.contextPath}/room/editUI.do?roomid=${room.r_id}" class="view-dateails btn btn-room">修改</a>&nbsp;&nbsp;&nbsp;&nbsp;
