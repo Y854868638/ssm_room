@@ -62,17 +62,22 @@ public class RoomController {
     @RequestMapping("edit")
     public ModelAndView edit(Room room, MultipartFile pic){
         ModelAndView mv=new ModelAndView();
-        System.out.println(pic.getOriginalFilename()+"-11");
-
         try {
            if (!pic.getOriginalFilename().equals("")){
-               //获取文件的完整路径
-               String originalFilename= pic.getOriginalFilename();
-               String fileName=UUID.randomUUID().toString();//创建一个随机的名字
-               String ext=originalFilename.substring(originalFilename.lastIndexOf("."));//获取文件拓展名
-               pic.transferTo(new File("C:/pic/"+fileName+ext));
-               //放入room对象
-               room.setR_pic(fileName+ext);
+               Room byId = roomService.findById(room.getR_id());
+               String r_pic = byId.getR_pic();
+               //如果用户重新上传了图片，把原来的图片删除
+               File file=new File("C:/pic/"+r_pic);
+               boolean delete = file.delete();
+               if (delete){
+                   //获取文件的完整路径
+                   String originalFilename= pic.getOriginalFilename();
+                   String fileName=UUID.randomUUID().toString();//创建一个随机的名字
+                   String ext=originalFilename.substring(originalFilename.lastIndexOf("."));//获取文件拓展名
+                   pic.transferTo(new File("C:/pic/"+fileName+ext));
+                   //放入room对象
+                   room.setR_pic(fileName+ext);
+               }
            }
             roomService.edit(room);
             mv.setViewName("redirect:/room/findAll.do");
@@ -90,9 +95,19 @@ public class RoomController {
     public ModelAndView delete(int roomid){
         ModelAndView mv=new ModelAndView();
         try {
-            roomService.delete(roomid);
-            mv.setViewName("redirect:/room/findAll.do");
-            return mv;
+            //获取数据库中图片的名称
+            Room room = roomService.findById(roomid);
+            String r_pic = room.getR_pic();
+            File file=new File("C:/pic/"+r_pic);
+            boolean delete = file.delete();//删除图片
+            if (delete){
+                roomService.delete(roomid);
+                mv.setViewName("redirect:/room/findAll.do");
+                return mv;
+            }else{
+                mv.setViewName("404_page");
+                return mv;
+            }
         } catch (Exception e) {
             e.printStackTrace();
             mv.setViewName("404_page");

@@ -78,14 +78,14 @@
                     <input type="text" class="form-control" name="r_max" value="${room.r_max}" placeholder="最大容纳人数 *">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="r_view" value="${room.r_view}" placeholder="房屋特点 *">
+                    <input type="text"  maxlength="15" class="form-control"  name="r_view" value="${room.r_view}" placeholder="房屋特点(小于15字) *">
                 </div>
                 <div class="form-group">
                     <input type="text" class="form-control" name="r_bed" value="${room.r_bed}" placeholder="床位 *">
                 </div>
                 <div class="form-group">
                     <input type="text" class="form-control" name="r_area" value="${room.r_area}" placeholder="面积 *">
-                </div>S
+                </div>
                 <div class="form-group">
                     <input type="file" class="form-control" name="pic" value="${room.r_pic}" placeholder="房间图片 *">
                 </div>

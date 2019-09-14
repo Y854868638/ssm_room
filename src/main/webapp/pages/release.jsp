@@ -53,6 +53,12 @@
             }
             return true;
         }
+        function textSize(maxlength) {
+            if (size<5){
+                alert("描述不能大于5");
+            }
+        }
+
     </script>
 </head>
 <body>
@@ -79,7 +85,7 @@
                     <input type="text" class="form-control" name="r_max" value="${room.r_max}" placeholder="最大容纳人数 *">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="r_view" value="${room.r_view}" placeholder="房屋特点 *">
+                    <input type="text"  maxlength="15" class="form-control"  name="r_view" value="${room.r_view}" placeholder="房屋特点(小于15字) *">
                 </div>
                 <div class="form-group">
                     <input type="text" class="form-control" name="r_bed" value="${room.r_bed}" placeholder="床位 *">
