@@ -63,6 +63,10 @@ public class RoomController {
     public ModelAndView edit(Room room, MultipartFile pic){
         ModelAndView mv=new ModelAndView();
         try {
+            /**
+             * 如果图片不为空就把以前的图片删除了，数据库录入新的图片名称
+             * 如果图片为空就不走这个判断直接修改其他的内容
+             */
            if (!pic.getOriginalFilename().equals("")){
                Room byId = roomService.findById(room.getR_id());
                String r_pic = byId.getR_pic();
